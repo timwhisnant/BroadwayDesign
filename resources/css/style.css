@@ -6,7 +6,9 @@ body {
 }
 
 .broadwayHeader {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-image: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
+  background-repeat: no-repeat;
+  display: block;
 }
 
 .broadwayHeader h1{
@@ -22,15 +24,15 @@ body {
   color: white;
 }
 
-.broadwayDiv1 h2{
+.broadwayDiv1 h3{
   font-family: Helvetica;
-  font-size: 32px;
+  font-size: 23px;
   font-weight: bold;
 }
 
-.broadwayDiv1 {
+.broadwayDiv1 h2{
   font-family: Helvetica;
-  font-size: 23px;
+  font-size: 32px;
   font-weight: bold;
 }
 
