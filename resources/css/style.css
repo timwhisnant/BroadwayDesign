@@ -18,7 +18,7 @@ body {
   color: white;
 }
 
-.broadwayHeader p{
+.broadwayHeader p, a{
   font-family: Helvetica;
   font-size: 18px;
   color: white;
@@ -43,4 +43,17 @@ body {
 
 .initialDiv {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
+
+.footerDiv {
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+
+.footerDiv p {
+  color: inherit;
+  font-size: 11px;
 }
